@@ -4,18 +4,20 @@
 # Takes user input and outputs several calculations
 
 # try:
-#     [Code]
-# except ZeroDivisionError:
-## this is a bit of code you can use to avoid crashing the program if a user inputs zero
+#     [CODE]
+# except [ERROR TYPE]:
+
+## this is a bit of code you can use to avoid crashing the program if it doesn't like 
+## something you had in input()
 
 # I think this print() statement is funny because I 100% overcomplicated this
 print('This is a program that will do some simple math with two numbers')
 
-userA = 0.0 # Make all these variables first so we can make them global inside
-userB = 0.0 # some fuctions, to make the program easier to organize.
-grabbed = 0 # The grabbed variable is made to prevent a bug where if an error is detected
-            # in input, it will repeatedly call for the input again, even when a correct
-            # value is chosen after.
+userA = 0.0  # Make all these variables first so we can make them global inside
+userB = 0.0  # some fuctions, to make the program easier to organize.
+grabbed = 0  # The grabbed variable is made to prevent a bug where if an error is detected
+             # in input, it will repeatedly call for the input again, even when a correct
+             # value is chosen after.
 
 def grabInput():
     # The reason I made grabbing an input a funtion was so it could call
@@ -30,7 +32,7 @@ def grabInput():
         try:
             userInput = input('[1st Value] Please enter a number: ')
             userA = float(userInput)
-            grabbed += 1 # Increase grabbed so that we don't try and take input for A again
+            grabbed += 1  # Increase grabbed so that we don't try and take input for A again
         except ValueError:
             print('The number entered was an incorrect float value!')
             grabInput()
@@ -38,7 +40,7 @@ def grabInput():
         try:
             userInput = input('[2nd Value] Please enter another number: ')
             userB = float(userInput)
-            grabbed += 1 # Increase grabbed so that we don't try to call grabInput() again
+            grabbed += 1  # Increase grabbed so that we don't try to call grabInput() again
         except ValueError: 
             print('The number entered was an incorrect float value!')
             grabInput()
