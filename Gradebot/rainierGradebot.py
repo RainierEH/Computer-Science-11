@@ -1,17 +1,17 @@
 # Rainier Hasbrouck
 # Created 3/1/2021
 # Last modified 3/1/2021
-# Tells you your grade based on a percentage you input
+# Tells you your grade based on the score and test total you input
 
 done = 1
 
-while done > 0
+while done > 0:
   try:
-    score = input("Enter your score here: ")
-    outOf = input("What was the test out of? ")
+    score = float(input("Enter your score here: "))
+    outOf = float(input("What was the test out of? "))
   
-    percentage = score / outOf
-    if percentage < 0 or percentage > 100
+    percentage = score / outOf * 100
+    if percentage >= 0 and percentage <= 100:
       print("Your percentage was: " + str(percentage))
       done -= 1
     else:
@@ -38,3 +38,5 @@ def findGrade(score):
   else:
     print('Your grade was: F')
     print('Better luck next time!')
+
+findGrade(percentage)
