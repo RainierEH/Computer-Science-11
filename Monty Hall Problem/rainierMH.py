@@ -7,7 +7,11 @@ doors = {
     }
 
 choices = ['1', '2', '3']
-config = doors[random.choice(choices)]
+config = random.choice(choices)
 
-userIn = input("Chose a door. 1, 2, or 3: ")
+print(doors[config])
+print(config)
 
+userIn = int(input("Chose a door. 1, 2, or 3: "))
+
+userDoor = doors[config[userIn]]
