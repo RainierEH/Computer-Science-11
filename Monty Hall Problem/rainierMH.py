@@ -9,4 +9,5 @@ doors = {
 choices = ['1', '2', '3']
 config = doors[random.choice(choices)]
 
-print(config)
+userIn = input("Chose a door. 1, 2, or 3: ")
+
