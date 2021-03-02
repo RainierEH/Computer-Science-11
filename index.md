@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Rainier's CS11 Projects
 
-You can use the [editor on GitHub](https://github.com/RainierEH/Computer-Science-11/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Most of my projects are in [this repo.](https://github.com/RainierEH/Computer-Science-11)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+They're here as a backup in case I lose any work, and it makes it easier to transfer between home and school.
 
-### Markdown
+### Projects:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Basic Math](https://github.com/RainierEH/Computer-Science-11/tree/main/BasicMath)
 
-```markdown
-Syntax highlighted code block
+[Gradebot](https://github.com/RainierEH/Computer-Science-11/tree/main/Gradebot)
 
-# Header 1
-## Header 2
-### Header 3
+[Magic 8 Ball](https://github.com/RainierEH/Computer-Science-11/tree/main/Magic8ball)
 
-- Bulleted
-- List
+[Monty Hall Problem](https://github.com/RainierEH/Computer-Science-11/tree/main/Monty%20Hall%20Problem)
 
-1. Numbered
-2. List
+### Other Resources:
 
-**Bold** and _Italic_ and `Code` text
+[CSCircles,](http://cscircles.cemc.uwaterloo.ca/) a site to test your skills and learn python. We use it in class often. 
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RainierEH/Computer-Science-11/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[W3Schools,](https://www.w3schools.com/) a nice little resource for help in many common languages, including python.
