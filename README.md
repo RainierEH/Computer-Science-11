@@ -1,5 +1,5 @@
 # Computer-Science-11
-A repo to store all my work for Computer Science 11 course
+A repo to store all my work for my Computer Science 11 course
 
 All files will have a header with project info like this:
 
